@@ -69,3 +69,19 @@ can find it.
 <!--trust-->
 No ratings yet — used this chain? [Rate it](../../issues/new?template=rate.yml): valid ratings publish automatically as verifiable frames.
 <!--/trust-->
+
+## Summon this node
+
+A MISSION chant — 14 words — carries the `water:@kody-w/dogg-water` dimension's identity, its tick, a hash prefix that pins the exact frame, and a quantized snapshot of gauge_height_ft, flood_stage_ft, pct_of_flood_stage.
+
+```
+KNELL CAST GRANITE GLEAM FORGE MURK TAPESTRY ANVIL PANACEA MANA LARCH PULSAR OBEY VIVID
+```
+
+`dogg:1:14:BIALHJAAAQfoQB1ApZgWCwE8`
+
+Tap to decode: [https://kody-w.github.io/dogg/recite.html#dogg:1:14:BIALHJAAAQfoQB1ApZgWCwE8](https://kody-w.github.io/dogg/recite.html#dogg:1:14:BIALHJAAAQfoQB1ApZgWCwE8)
+
+This chant carries three things: which dimension it names (`water:@kody-w/dogg-water`), which tick and frame it was cut from (tick 1, hash prefix `01fa1`), and the field values above, quantized (log-quantized, ~0.3% relative (1e-6 … 1e15)) — enough to recognize the node and sanity-check a claim about it without touching the network.
+
+This is a snapshot of one tick (tick 1) — the numbers move as the stream advances, so re-mint with `python3 tools/dogg.py mission water:@kody-w/dogg-water` for the latest.
