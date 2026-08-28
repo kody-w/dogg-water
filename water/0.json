@@ -1,0 +1,42 @@
+{
+  "spec": "rapp/1",
+  "kind": "water.snapshot",
+  "stream_id": "water:@kody-w/dogg-water",
+  "seq": 0,
+  "utc": "2026-08-28T17:49:28.151Z",
+  "payload": {
+    "tick": 465,
+    "tick_frame": "cb1bb7f89de1efbfced38889c067e30e3d74817f71173ab51ca7f9c32f877e93",
+    "spine": "kody-w/dogg",
+    "fetched_utc": "2026-08-28T17:49:28.151Z",
+    "water": {
+      "procedure": {
+        "version": 1,
+        "steps": [
+          "Boil: bring water to a rolling boil for 1 minute. Above 2000 m (6560 ft) altitude, boil for 3 minutes instead — water boils at a lower temperature there, so it takes longer to kill pathogens.",
+          "Chemical disinfection (if boiling isn't possible): use plain, unscented household bleach (5-9% sodium hypochlorite, no added scents or dyes). Add 8 drops per gallon for clear water, 16 drops per gallon for cloudy water. Stir and let it stand 30 minutes before drinking.",
+          "Filter first, then disinfect: if water is cloudy or has visible particles, filter it through a clean cloth, coffee filter, or settle-and-decant BEFORE boiling or bleaching. Filtering alone does not make water safe to drink.",
+          "Storage: keep 1 gallon per person per day, with a 3-day (72-hour) minimum supply on hand per person. Use clean, food-grade, sealed containers stored in a cool, dark place away from direct sunlight and chemicals.",
+          "Rotation: rotate stored water every 6 months. Date each container when filled so you always know what's due."
+        ]
+      },
+      "gauge": {
+        "site": "02336000",
+        "site_name": "Chattahoochee River at Atlanta, GA",
+        "parameter": "Gage height, ft",
+        "gauge_height_ft": "3.76",
+        "observed_local": "2026-08-28T12:45:00.000-04:00",
+        "flood_stage_ft": "22",
+        "flood_stage_source": "NWS",
+        "pct_of_flood_stage": "17.1"
+      }
+    },
+    "sources_failed": [],
+    "about": "A federated node of the global tick network: this repo's own water outlook, one frame per observed tick, keyed to the spine's tick anchors so it joins every other node's data on the same clock."
+  },
+  "payload_hash": "6c0216c94bcd14f9fcb8b138e291d682a7850a929ca4a2da2b0160716e647742",
+  "prev": null,
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "052c1b26f0866126cdc5836c7165641032bbcf212170e36517ededec95f31f6e"
+}

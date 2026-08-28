@@ -1,0 +1,13 @@
+{
+  "schema": "rapp/1",
+  "rappid": "rappid:@kody-w/dogg-water:e86708598428b4904615393f431415c2bbcacba310bca7ba18eeea8ca12226ab",
+  "kind": "node",
+  "name": "dogg-water",
+  "host": "github.com",
+  "owner": "kody-w",
+  "repo": "dogg-water",
+  "github": "https://github.com/kody-w/dogg-water",
+  "parent_rappid": "rappid:@kody-w/dogg:398899d4c850bc28fabe33115c52436def0d485c34753e9bbef06e4c283892b4",
+  "minted_at": "2026-08-28T17:49:03Z",
+  "notes": "Federated node of the global tick network; descends from the spine thread. Minted once per RAPP spec §6.2 — uuid-entropy tail, never a name-hash."
+}
