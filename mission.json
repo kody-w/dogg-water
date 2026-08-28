@@ -1,0 +1,31 @@
+{
+ "schema": "dogg/0-mission",
+ "dimension": "water:@kody-w/dogg-water",
+ "fields": [
+  {
+   "name": "gauge_height_ft",
+   "path": "payload.water.gauge.gauge_height_ft",
+   "unit": "feet"
+  },
+  {
+   "name": "flood_stage_ft",
+   "path": "payload.water.gauge.flood_stage_ft",
+   "unit": "feet"
+  },
+  {
+   "name": "pct_of_flood_stage",
+   "path": "payload.water.gauge.pct_of_flood_stage",
+   "unit": "percent"
+  },
+  {
+   "name": "procedure_version",
+   "path": "payload.water.procedure.version",
+   "unit": "version (int)"
+  }
+ ],
+ "default": [
+  "gauge_height_ft",
+  "flood_stage_ft",
+  "pct_of_flood_stage"
+ ]
+}
