@@ -1,8 +1,8 @@
 {
-  "count": 80,
+  "count": 81,
   "sealed_epochs": 0,
   "epoch_size": 288,
   "stream_id": "water:@kody-w/dogg-water",
-  "head_frame": "93dba58f320e78e529d4cbbced6c1f8d0be1ed00199408ba7c448c313a545129",
-  "updated": "2026-09-09T21:04:29.173Z"
+  "head_frame": "3ecffe56d9d0b8932bafe703167322397e12c1381bf8f4cd35830e2cf9a14d05",
+  "updated": "2026-09-09T23:26:09.959Z"
 }
