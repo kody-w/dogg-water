@@ -1,0 +1,41 @@
+{
+  "spec": "rapp/1",
+  "kind": "water.snapshot",
+  "stream_id": "water:@kody-w/dogg-water",
+  "seq": 191,
+  "utc": "2026-09-27T22:27:42.149Z",
+  "payload": {
+    "tick": 1541,
+    "tick_frame": "86cfade01105d9e651448365ee5b0cca84f1796b9fee25bcc821e34d39624cb3",
+    "spine": "kody-w/dogg",
+    "fetched_utc": "2026-09-27T22:27:42.149Z",
+    "water": {
+      "procedure": {
+        "version": 1,
+        "steps": [
+          "Boil: bring water to a rolling boil for 1 minute. Above 2000 m (6560 ft) altitude, boil for 3 minutes instead — water boils at a lower temperature there, so it takes longer to kill pathogens.",
+          "Chemical disinfection (if boiling isn't possible): use plain, unscented household bleach (5-9% sodium hypochlorite, no added scents or dyes). Add 8 drops per gallon for clear water, 16 drops per gallon for cloudy water. Stir and let it stand 30 minutes before drinking.",
+          "Filter first, then disinfect: if water is cloudy or has visible particles, filter it through a clean cloth, coffee filter, or settle-and-decant BEFORE boiling or bleaching. Filtering alone does not make water safe to drink.",
+          "Storage: keep 1 gallon per person per day, with a 3-day (72-hour) minimum supply on hand per person. Use clean, food-grade, sealed containers stored in a cool, dark place away from direct sunlight and chemicals.",
+          "Rotation: rotate stored water every 6 months. Date each container when filled so you always know what's due."
+        ]
+      },
+      "gauge": {
+        "site": "02336000",
+        "site_name": "Chattahoochee River at Atlanta, GA",
+        "parameter": "Gage height, ft",
+        "gauge_height_ft": "3.34",
+        "observed_local": "2026-09-27T17:45:00.000-04:00",
+        "flood_stage_ft": "22",
+        "flood_stage_source": "NWS",
+        "pct_of_flood_stage": "15.2"
+      }
+    },
+    "sources_failed": []
+  },
+  "payload_hash": "4f71e7eb1d9e9514b61e49e30086486a8e24fbbd3619646d49ea46d2070eca05",
+  "prev": "330c86733382a14491c0b9b621386809be82115310b5ee0b7bc88f920d167f1c",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "942c7f46add09022e1a85b1ce938a214044331f9ffcbf49861689212a712cbbb"
+}
