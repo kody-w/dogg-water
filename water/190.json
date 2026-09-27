@@ -1,0 +1,33 @@
+{
+  "spec": "rapp/1",
+  "kind": "water.snapshot",
+  "stream_id": "water:@kody-w/dogg-water",
+  "seq": 190,
+  "utc": "2026-09-27T19:09:44.802Z",
+  "payload": {
+    "tick": 1523,
+    "tick_frame": "335b6bd42b72e4a47ea3f2e6f6b97516d19e614c15b255a088f898f87a986ece",
+    "spine": "kody-w/dogg",
+    "fetched_utc": "2026-09-27T19:09:44.802Z",
+    "water": {
+      "procedure": {
+        "version": 1,
+        "steps": [
+          "Boil: bring water to a rolling boil for 1 minute. Above 2000 m (6560 ft) altitude, boil for 3 minutes instead — water boils at a lower temperature there, so it takes longer to kill pathogens.",
+          "Chemical disinfection (if boiling isn't possible): use plain, unscented household bleach (5-9% sodium hypochlorite, no added scents or dyes). Add 8 drops per gallon for clear water, 16 drops per gallon for cloudy water. Stir and let it stand 30 minutes before drinking.",
+          "Filter first, then disinfect: if water is cloudy or has visible particles, filter it through a clean cloth, coffee filter, or settle-and-decant BEFORE boiling or bleaching. Filtering alone does not make water safe to drink.",
+          "Storage: keep 1 gallon per person per day, with a 3-day (72-hour) minimum supply on hand per person. Use clean, food-grade, sealed containers stored in a cool, dark place away from direct sunlight and chemicals.",
+          "Rotation: rotate stored water every 6 months. Date each container when filled so you always know what's due."
+        ]
+      }
+    },
+    "sources_failed": [
+      "gauge"
+    ]
+  },
+  "payload_hash": "330c86733382a14491c0b9b621386809be82115310b5ee0b7bc88f920d167f1c",
+  "prev": "8eef70572bc75d0b3aa97a40e0f9b2e30a6872a61ff0dd1b22235944cea930ce",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "85ca5cd88a7d765164b97feed8a8973d611d00e5c04be47b1209c07e2acd42e1"
+}
